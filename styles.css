@@ -1,0 +1,21 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden; /* disable horizontal scroll */
+  overflow-y: scroll; /* enable vertical scroll */
+  font-family: sans-serif;
+}
+
+#scroll-video {
+  position: sticky;
+  top: 0;
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+}
+
+.content {
+  background: #fff;
+  padding: 2rem;
+  position: relative;
+}
